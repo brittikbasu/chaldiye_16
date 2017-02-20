@@ -7,7 +7,7 @@
         background-image: url("../img/rock_climbing/slides/slide_1.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width:478px;
+        width:100%;
     }
     
     
@@ -15,14 +15,14 @@
         background-image: url("../img/rock_climbing/slides/slide_2.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width:478px;
+        width:100%;
     }
     
     .adventure-details .bg3 {
         background-image: url("../img/rock_climbing/slides/slide_3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width:478px;
+        width:100%;
         
     }
     
