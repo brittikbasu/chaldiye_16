@@ -19,8 +19,9 @@
 }
 
 .select-date .collapsible-body {
-        background-color: rgba(245, 245, 255, 0.7);
+    background-color: rgba(245, 245, 255, 0.7);
 }
+
 .select-date .round {
     border-radius: 50%;
     height: 60px;
@@ -36,9 +37,7 @@
 .select-date .collapse-card {
     margin-top: 7vh;
     margin-top: -1px;
-    width:100vw;
-   
-
+    width: 100vw;
 }
 
 .select-date .collapsible-header {
@@ -47,6 +46,7 @@
 
 .select-date .collapsible-body {
     min-height: 100%;
+    padding: 1.7rem;
 }
 
 .select-date .sold-out {
@@ -54,7 +54,7 @@
     position: relative;
     height: 80px;
     width: 100%;
-    padding-top: 35px;
+    padding-top: 19px;
     font-weight: bold;
 }
 

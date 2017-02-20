@@ -20,7 +20,7 @@ angular.module('app.controllers', [])
         console.log(">>>>>>>>>>>>>>>>>>>>>>inside SELECT DATE");
         var todaySoldOut = true;
         if (todaySoldOut) {
-            document.getElementById("todayarea").innerHTML = '<div class="sold-out"><p style="margin-left:20px;">Sorry we are fully booked for today</p><a class="button button-icon icon ion-android-sad" style="margin-left: 76%;margin-top: -13.8%;"></a></div>';
+            document.getElementById("todayarea").innerHTML = '<div class="sold-out"><p style="text-align:center;">Sorry we are fully booked for today</p><br><h1 class="button button-icon icon ion-android-sad" style="margin-left: 46%;margin-top: -9.8%;"></h1></div>';
         }
         /*var but = "",
             button,
