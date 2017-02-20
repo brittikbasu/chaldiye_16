@@ -43,8 +43,9 @@
     }
     
       .order-summary .item.item-divider .badge {
-    top: 32px;
-    padding:5px 10px;
+        top: 27px;
+    padding: 7px 16px;
+    height: 35px;
 }
 
 

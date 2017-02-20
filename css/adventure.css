@@ -37,6 +37,10 @@
     padding-top: 20px;
 }
 
+.adventure .card-margin{
+    margin-top:15px;
+}
+
 .adventure .waves-effect,
 .adventure .waves-block,
 .adventure .waves-light {

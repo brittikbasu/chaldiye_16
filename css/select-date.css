@@ -18,6 +18,9 @@
     margin-left: 0 auto;
 }
 
+.select-date .collapsible-body {
+        background-color: rgba(245, 245, 255, 0.7);
+}
 .select-date .round {
     border-radius: 50%;
     height: 60px;
@@ -47,12 +50,11 @@
 }
 
 .select-date .sold-out {
-    background-color: rgba(245, 245, 255, 0.7);
     color: #ef4e3a;
     position: relative;
-    height: 120px;
+    height: 80px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 35px;
     font-weight: bold;
 }
 
