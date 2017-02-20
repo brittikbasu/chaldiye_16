@@ -1,0 +1,150 @@
+    .adventure-details {
+        /****************slidebox backgrounds*******************************/
+        /* Styles here */
+    }
+    
+    .adventure-details .bg1 {
+        background-image: url("../img/rock_climbing/slides/slide_1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:478px;
+    }
+    
+    
+    .adventure-details .bg2 {
+        background-image: url("../img/rock_climbing/slides/slide_2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:478px;
+    }
+    
+    .adventure-details .bg3 {
+        background-image: url("../img/rock_climbing/slides/slide_3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:478px;
+        
+    }
+    
+    .adventure-details hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.45), transparent);
+    }
+    
+    .adventure-details .top {
+        width: 100vw;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: -6px -5px 0;
+    }
+    
+    .adventure-details .topslide {
+        height: 45vh;
+        width: 116.9%;
+        margin-left:-35px;
+        margin-top:-23px;
+    }
+
+    .adventure-details .slider-slides{
+
+    }
+    
+    .adventure-details .bottom-screen {
+        margin-top: 57vh;
+    }
+    
+    .adventure-details .one {
+        height: 100%;
+        background-color: yellow;
+    }
+    
+    .adventure-details .two {
+        height: 100%;
+        background-color: pink;
+    }
+    
+    .adventure-details .three {
+        height: 100%;
+        background-color: green;
+    }
+    
+    .adventure-details .card-text-right {
+        float: right;
+        font-weight: bold;
+    }
+    
+    .adventure-details .card-bg {
+        background-color: #444;
+    }
+    
+    .adventure-details .upup {
+        display: block;
+        margin-top: -20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    .adventure-details .item-divider-tweak{
+	width: 106%;
+	margin-left: -3%;
+    }
+    
+    .adventure-details .round-avatar {
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        margin-top: -5px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .adventure-details .justify {
+        text-align: justify;
+    }
+    
+    .cont {
+        margin-top: -5px;
+    }
+    
+    @media (min-width:481px) {
+        .adventure-details .bg {
+           /* background-image: url("https://images.unsplash.com/photo-1445914897371-974b137e4402?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=eef5e00e8fd244e91ea8864861d3e567");*/
+            /*background-image: url("../img/rock_climbing/at_the_top.jpg");*/
+            background-image: url("../img/rock_climbing/climbing_up.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -webkit-filter: blur(2px);
+            filter: blur(0px);
+            position: fixed !important;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            bottom: -10px;
+            left: -10px;
+        }
+        .row {
+            margin-left: 10px;
+        }
+        .col {
+            max-width: 480px;
+        }
+        .cont {
+            width: 480px;
+            position: relative;
+            margin: 0 auto;
+            margin-top: -26px;
+            background-color: rgba(200, 200, 200, 0.4);
+            ;
+            padding: 20px;
+        }
+        .desktop-scroll {
+            overflow-y: scroll;
+        }
+    }
+
+
+    /*# sourceMappingURL=adventure-details.css.map */

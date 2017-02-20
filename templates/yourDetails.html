@@ -1,0 +1,82 @@
+<ion-view title="Please enter your details" class="your-details">
+    <div class="bg1"></div>
+
+    <ion-content class="padding centered">
+        <!--
+        <div class="transparentbg padding">
+            <h5>Awesome! We've kept <div class="" style="display:inline; font-weight:bold;">3</div> tickets aside for you. Now, we just need some details so that we can send your tickets after the payment is successful.</h5></div>
+        <div class="card user-details">
+            <form class="list">
+                <div class="list">
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">Full Name</span>
+
+
+                        <input type="text" required placeholder="Full Name">
+
+
+                    </label>
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">Email</span>
+                        <input type="email" name="email" ng-model="email" placeholder="Email">
+                    </label>
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">Phone Number</span>
+                        <input type="text" placeholder="Phone Number">
+                    </label>
+                </div>
+
+            </form>
+
+        </div>
+
+-->
+
+        <div class="card user-details transparent-bg">
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="tel" type="tel">
+                        <!--<label for="icon_telephone">Telephone</label>-->
+                        <label for="tel">Phone No</label>
+
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="notifier">
+            <div class="notifier-container">
+                <a href="#/select-date" class="button round" id="tot"></a>
+                <h5 class="flag">Ticket(s)</h5>
+                <div class="down-flag">
+                    <h7>Adventure : Rock Climbing</h7>
+                        <br> 
+                        <h7 id="ticketdate">Date : 2nd January, 2015</h7>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-positive">
+        <a class="title waves-effect waves-light btn" onclick="saveDetails();" href="#/order-summary" style="background-color:#4a87ee;  width:100%; margin-left:0;">Continue</a>
+    </ion-footer-bar>
+
+
+</ion-view>

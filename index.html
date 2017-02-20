@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="http://code.ionicframework.com/1.2.1/css/ionic.min.css" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+    <!--<link href="css/ionic.app.css" rel="stylesheet">
+
+-->
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/adventure.css" rel="stylesheet">
+    <link href="css/adventure-details.css" rel="stylesheet">
+    <link href="css/select-date.css" rel="stylesheet">
+    <link href="css/your-details.css" rel="stylesheet">
+    <link href="css/order-summary.css" rel="stylesheet">
+    <link href="css/booking-successful.css" rel="stylesheet">
+    <link href="css/common-styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <style>
+        .angular-google-map-container {
+            width: 100%;
+            height: 504px;
+        }
+    </style>
+<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:italic|Source+Sans+Pro:200i,400i" rel="stylesheet"></head>
+
+<body ng-app="app" animation="slide-left-right-ios7">
+    <div>
+        <div>
+            <ion-nav-bar class="bar-stable">
+                <ion-nav-back-button class="button-icon icon ion-ios-arrow-back">Back</ion-nav-back-button>
+            </ion-nav-bar>
+            <ion-nav-view></ion-nav-view>
+        </div>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" type="text/javascript"></script>
+    <script>
+        var now = moment();
+        now.format("MMM Do YY");
+        console.log(now);
+        console.log("cool");
+    </script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script src="lib/ionic/js/ionic.bundle.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/controllers.js" type="text/javascript"></script>
+    <script src="js/routes.js" type="text/javascript"></script>
+    <script src="js/services.js" type="text/javascript"></script>
+    <script src="js/directives.js" type="text/javascript"></script>
+    <script src="js/local.js" type="text/javascript"></script>
+</body>
+
+</html>

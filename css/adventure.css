@@ -1,0 +1,121 @@
+.adventure .bg1 {
+    background-image: url("../img/adventure_bg_s.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-filter: blur(10px);
+    filter: blur(0px);
+    position: fixed !important;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+}
+
+.adventure .round {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+    background: linear-gradient(#dafafa, #cdcfca);
+    box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.13), 0 5px 8px rgba(0, 0, 0, 0.35), 0 3px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.adventure .card {
+    background: rgba(23, 43, 87, 0.9);
+    max-width: 430px;
+        background: rgba(23, 43, 87, 0.2);
+
+}
+
+.adventure .card-image {
+    height: 160px;
+    padding-top: 20px;
+}
+
+.adventure .waves-effect,
+.adventure .waves-block,
+.adventure .waves-light {
+    overflow: visible;
+}
+
+.adventure .ok-centered {
+    width: 100%;
+    height: 100%;
+    margin-top: 8vh;
+}
+
+@media (min-width:420px) {
+    .adventure .card {
+        max-width: 400px;
+    }
+    .adventure .center-them {
+        width: 402px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 650px) and (max-width:970px) {
+    .adventure .card {
+        width: 300px;
+        display: inline-block;
+    }
+    .adventure .center-them {
+        width: 604px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+.adventure .bg1 {
+    background-image: url("../img/adventure_bg_l.jpg");
+}
+
+}
+
+@media (min-width: 950px) and (max-width:1270px) {
+    .adventure .card {
+        width: 300px;
+        display: inline-block;
+    }
+    .adventure .center-them {
+        width: 907px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+   
+
+}
+
+@media (min-width: 1270px) {
+    .adventure .card {
+        width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .adventure .center-them {
+        width: 1211px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+     .adventure .ok-centered {
+ 
+    margin-top: 17vh;
+}
+}
+
+.adventure .small {
+    height: 130px;
+}
+
+
+/*# sourceMappingURL=adventure.css.map */

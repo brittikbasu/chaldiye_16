@@ -1,0 +1,178 @@
+/*.order-summary {   
+}
+
+.order-summary .card-text-right {
+    float: right;
+    font-weight: bold;
+}
+
+.order-summary a {
+    text-decoration: none;
+}
+
+.order-summary .item {
+    min-height: 60px;
+}
+
+.order-summary .card {
+    background: rgba(23, 43, 87, 0.9);
+}
+
+  .desktop-scroll {
+            overflow-y: scroll;
+        }
+
+@media (min-width: 370px) {
+    .order-summary .card {
+        width: 400px;
+        display: inline-block;
+    }
+    .order-summary .centered {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+*/
+/*# sourceMappingURL=order-summary.css.map */
+
+
+    .order-summary {
+        /****************slidebox backgrounds*******************************/
+        /* Styles here */
+    }
+    
+      .order-summary .item.item-divider .badge {
+    top: 32px;
+    padding:5px 10px;
+}
+
+
+/*
+    .order-summary .bg1 {
+        background-image: url("http://www.photographyblogger.net/wp-content/uploads/2012/09/rock-climbing3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .order-summary .bg2 {
+        background-image: url("http://s20.postimg.org/wzutiehl9/Screen_shot_2014_11_10_at_9_17_32_AM.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    
+    .order-summary .bg3 {
+        background-image: url("http://s20.postimg.org/6g28g9h1p/rock_climbing_20130807.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    */
+    
+    .order-summary hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.45), transparent);
+    }
+    
+    .order-summary .top {
+        width: 100vw;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: -6px -5px 0;
+    }
+    
+    .order-summary .topslide {
+        height: 45vh;
+        width: 100%;
+    }
+    
+    .order-summary .bottom-screen {
+        margin-top: 57vh;
+    }
+    
+    .order-summary .one {
+        height: 100%;
+        background-color: yellow;
+    }
+    
+    .order-summary .two {
+        height: 100%;
+        background-color: pink;
+    }
+    
+    .order-summary .three {
+        height: 100%;
+        background-color: green;
+    }
+    
+    .order-summary .text-right {
+        float: right;
+        font-weight: bold;
+    }
+    
+    .order-summary .card-bg {
+        background-color: #444;
+    }
+    
+    .order-summary .upup {
+        display: block;
+        margin-top: -20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    .order-summary .round-avatar {
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        margin-top: -5px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .order-summary .justify {
+        text-align: justify;
+    }
+    
+    .cont {
+        margin-top: -5px;
+    }
+    
+    @media (min-width:481px) {
+        .order-summary .bg {
+            background-image: url("../img/order_summary_bg_l.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -webkit-filter: blur(2px);
+            filter: blur(0px);
+            position: fixed !important;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            bottom: -10px;
+            left: -10px;
+        }
+        .row {
+            margin-left: 10px;
+        }
+        .col {
+            max-width: 480px;
+        }
+        .cont {
+            width: 480px;
+            position: relative;
+            margin: 0 auto;
+    margin-top: 11vh;
+            background-color: rgba(200, 200, 200, 0.4);
+            padding: 20px;
+        }
+        .desktop-scroll {
+            overflow-y: scroll;
+        }
+
+      
+    }
+    /*# sourceMappingURL=order-summary.css.map */

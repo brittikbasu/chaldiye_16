@@ -1,0 +1,82 @@
+<ion-view title="Select Date" class="select-date">
+    <!--<div class="common-bg"></div>-->
+        <div class="bg"></div>
+    <ion-content class="centered">
+    <div class="row padding /*transparentbg*/" style="margin-top:25px;">
+        <div class="col col-75">
+            <h4>When do you want to go Rock Climbing?</h4>
+        </div>
+        <div class="col">
+            <img src="../img/icons/rock_climbing.png" style="height:70px; width:70px;">
+        </div>
+    </div>
+
+        <ul class="collapsible collapse-card" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"> Today
+                    <div class="right-date" style="float:right"><i class="fa fa-calendar-o"></i>
+                        <p style="display:inline-block; margin-left:-7px;">20th Feb</p>
+                    </div>
+                </div>
+                <div class="collapsible-body" id="todayarea">
+                    <!--CODE FROM SELECT DATE CONTROLLER GOES HERE -->
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Tomorrow
+                    <div class="right-date" style="float:right"><i class="fa fa-calendar-o"></i>
+                        <p style="display:inline-block;margin-left:-7px;">21st Feb</p>
+                    </div>
+                </div>
+                <div class="collapsible-body available padding">
+                    <div class="flow-text">How many tickets do you need?</div>
+                    <div class="no-of-tickets-button">
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(1, 'tomorrow');">1</a>
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(2, 'tomorrow');">2</a>
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(3, 'tomorrow');">3</a>
+                        <a href="#" class="button round" style="font-size:14px" onclick="alert('Only 3 tickets are available for tomorrow')">More</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    Day after tomorrow
+                    <div class="right-date" style="float:right"><i class="fa fa-calendar-o"></i>
+                        <p style="display:inline-block; margin-left:-7px;">22nd Feb</p>
+                    </div>
+                    <!-- <span class="badge"><div class="balanced">27 Available</div></span>-->
+                </div>
+                <div class="collapsible-body available padding">
+                    <div class="flow-text">How many tickets do you need?</div>
+                    <div class="no-of-tickets-button">
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(1,'dayAfterTomorrow');">1</a>
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(2,'dayAfterTomorrow');">2</a>
+                        <a href="#/your-details" class="button round" id="ticno" onclick="selected(3,'dayAfterTomorrow');">3</a>
+                        <a href="#" class="button round" style="font-size:14px" onclick="alert('Only 3 tickets are available for day after tomorrow')">More</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"> Future
+                    <div class="right-date" style="float:right"><i class="fa fa-calendar-o"></i>
+                        <p style="display:inline-block; margin-right:37px;">   ...</p>
+                    </div>
+                </div>
+                <div class="collapsible-body padding available">
+                    <p>Due to unpredictable weather conditions, we can't accept pre-booking. We will notify you before we start
+                        booking on your desired date.</p>
+                    <form action="#">
+                        <label>Date
+                            <input type="date" class="datepicker">
+                        </label>
+                        <div class="input-field">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </form>
+                    <a class="waves-effect waves-light btn">Notify Me</a>
+                </div>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
