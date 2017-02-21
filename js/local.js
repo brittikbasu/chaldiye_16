@@ -43,7 +43,7 @@ console.log("Name "+localStorage.cusName+ " | Tel "+localStorage.cusTelephone+ "
 };
 
 var adventureNA = function(){
-    alert("Only Rock Climbing is available in this prototype.");
+    alert("Only Rock Climbing is available in this prototype. It's the one at the top, the first one.");
 };
 
 var yourDetils = function(){
