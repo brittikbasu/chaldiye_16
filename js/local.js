@@ -19,10 +19,10 @@ var not = sel;
 var whichDay = day;
 console.log("which day is " +whichDay);
 if(whichDay ==='tomorrow'){
-  localStorage.ticketDate = "23rd Feb, 2017"
+  localStorage.ticketDate = "24th Feb, 2017"
 }
 else if(whichDay ==='dayAfterTomorrow'){
-    localStorage.ticketDate = "24th Feb, 2017"
+    localStorage.ticketDate = "25th Feb, 2017"
 }
 console.log("no of tickets selected is " +not);
 localStorage.noOfTicketsSelected = not;
